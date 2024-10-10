@@ -11,10 +11,20 @@
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2020", "dom"],
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@backend/database": ["libs/database/src/index.ts"],
+      "@backend/doc": ["libs/doc/src/index.ts"],
+      "@backend/file": ["libs/file/src/index.ts"],
+      "@backend/helper": ["libs/helper/src/index.ts"],
+      "@backend/message": ["libs/message/src/index.ts"],
+      "@backend/pagination": ["libs/pagination/src/index.ts"],
+      "@backend/request": ["libs/request/src/index.ts"],
+      "@backend/response": ["libs/response/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -16,14 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@backend/database": ["libs/database/src/index.ts"],
-      "@backend/doc": ["libs/doc/src/index.ts"],
-      "@backend/file": ["libs/file/src/index.ts"],
-      "@backend/helper": ["libs/helper/src/index.ts"],
-      "@backend/message": ["libs/message/src/index.ts"],
-      "@backend/pagination": ["libs/pagination/src/index.ts"],
-      "@backend/request": ["libs/request/src/index.ts"],
-      "@backend/response": ["libs/response/src/index.ts"]
+      "@backend/common": ["libs/common/src/index.ts"],
     }
   },
   "exclude": ["node_modules", "tmp"]
